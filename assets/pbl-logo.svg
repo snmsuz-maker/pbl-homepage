@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 72" role="img" aria-labelledby="title desc">
+  <title id="title">PBL Boxing Center</title>
+  <desc id="desc">PBL 복싱센터 로고</desc>
+  <g fill="none" stroke="#d9fa55" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M7 17 34 5l27 12v27L34 58 7 44z"/>
+    <path d="m18 22 16-7 16 7v17L34 48 18 39z"/>
+    <path d="M25 29h18v4H25zm4-7 5-3 5 3v7H29z" fill="#d9fa55" stroke="none"/>
+    <path d="M34 34v9"/>
+  </g>
+  <text x="76" y="37" fill="#f6f7f2" font-family="Arial,sans-serif" font-size="32" font-weight="900" letter-spacing="1.5">PBL</text>
+  <text x="78" y="54" fill="#a7a99f" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="2.15">BOXING CENTER</text>
+</svg>
