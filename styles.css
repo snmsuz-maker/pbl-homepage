@@ -65,3 +65,31 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
  .program-card{scroll-snap-align:start}
 }
 @media(max-width:650px){.program-grid{grid-auto-columns:85%;gap:12px}.program-meta{font-size:8px;letter-spacing:1px}}
+
+
+/* 2026-09-30 hero logo visual + 2015 Military World Games coach photo */
+.hero-logo-visual{
+  background-image:url("assets/pbl-logo.svg");
+  background-repeat:no-repeat;
+  background-size:min(54vw,720px) auto;
+  background-position:68% 48%;
+  filter:none;
+  transform:none;
+  opacity:.22;
+}
+.hero-logo-visual::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at 68% 48%,rgba(217,250,85,.10),transparent 32%);
+}
+@media(max-width:650px){
+  .hero-logo-visual{
+    background-size:76vw auto;
+    background-position:50% 35%;
+    opacity:.18;
+  }
+}
+.coach-photo{
+  object-position:center center;
+}
